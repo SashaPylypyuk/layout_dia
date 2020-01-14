@@ -274,7 +274,8 @@ h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
-    color: #6c788b; }
+    color: #6c788b;
+    margin-bottom: 1em; }
   .agency__column-right {
     display: grid;
     max-width: 560px;
