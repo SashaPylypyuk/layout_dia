@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -410,6 +411,228 @@ h1 {
     right: 0;
     bottom: 0;
     background: no-repeat center; }
+
+.testimonials {
+  padding: 0 227px;
+  margin-bottom: 168px; }
+  .testimonials__text-caption {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c0cdd7; }
+  .testimonials .testimonials__text-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .testimonials__text-title {
+    margin: 16px 0 85px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #253757; }
+  .testimonials__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .testimonials__card {
+    position: relative;
+    border-radius: 16px;
+    background-color: #fff;
+    width: 319px;
+    height: 494px; }
+  .testimonials__photo {
+    position: relative;
+    left: 20%;
+    width: 140px;
+    height: 140px;
+    margin: 0 0 111px;
+    border-radius: 50%; }
+  .testimonials__person {
+    position: relative;
+    padding: 87px 32px 32px; }
+  .testimonials__square-left {
+    position: absolute;
+    width: 139px;
+    height: 56px;
+    background: #2060f6;
+    border-radius: 12px;
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg); }
+  .testimonials__square-right {
+    position: absolute;
+    right: 50px;
+    top: 170px;
+    width: 139px;
+    height: 56px;
+    background: #2060f6;
+    border-radius: 12px;
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg); }
+  .testimonials__text-card {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #6c788b;
+    margin: 0 32px 16px; }
+    .testimonials__text-card::before {
+      content: "";
+      top: -20px;
+      left: 48%;
+      position: absolute;
+      width: 21px;
+      height: 19px;
+      background: url(../images/testimonials/“.png) no-repeat center; }
+  .testimonials__text-name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #253757;
+    margin-bottom: 4px; }
+
+.three-component {
+  position: relative;
+  padding: 200px 442px 400px;
+  height: 900px;
+  width: 100%;
+  background-color: #fff; }
+  .three-component__text-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 150%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    color: #253757;
+    margin-bottom: 24px; }
+  .three-component__text {
+    width: 750px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #6c788b;
+    margin: 0 auto 64px; }
+  .three-component__button {
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 226px;
+    height: 56px;
+    background: #2060f6;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff; }
+    .three-component__button:hover {
+      -webkit-animation: button-pulse 1s;
+              animation: button-pulse 1s;
+      -webkit-box-shadow: 0 0 0 2em rgba(32, 96, 246, 0);
+              box-shadow: 0 0 0 2em rgba(32, 96, 246, 0); }
+
+@-webkit-keyframes button-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #2060f6;
+            box-shadow: 0 0 0 0 #2060f6; } }
+
+@keyframes button-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #2060f6;
+            box-shadow: 0 0 0 0 #2060f6; } }
+
+.oval {
+  position: absolute;
+  opacity: 0.5;
+  border: 3px solid #2060f6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(-65.1deg);
+          transform: rotate(-65.1deg); }
+  .oval-little {
+    width: 46px;
+    height: 18px;
+    border-radius: 6px; }
+    .oval-little-1 {
+      left: 30%;
+      top: 10%; }
+    .oval-little-2 {
+      left: 80%;
+      top: 15%; }
+    .oval-little-3 {
+      left: 32%;
+      top: 50%; }
+    .oval-little-4 {
+      left: 65%;
+      top: 60%; }
+  .oval-middle {
+    width: 86px;
+    height: 34px;
+    border-radius: 12px; }
+    .oval-middle-1 {
+      left: 15%;
+      top: 15%; }
+    .oval-middle-2 {
+      left: 8%;
+      top: 70%; }
+    .oval-middle-3 {
+      left: 80%;
+      top: 60%; }
+    .oval-middle-4 {
+      left: 90%;
+      top: 30%; }
+  .oval-big {
+    width: 144px;
+    height: 57px;
+    border-radius: 12px; }
+    .oval-big-1 {
+      left: 17%;
+      top: 50%; }
+    .oval-big-2 {
+      left: 80%;
+      top: 30%; }
+    .oval-big-3 {
+      left: 85%;
+      top: 60%; }
 
 * {
   margin: 0;
