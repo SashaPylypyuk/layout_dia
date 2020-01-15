@@ -420,17 +420,10 @@ h1 {
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #c0cdd7; }
-  .testimonials .testimonials__text-caption {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
   .testimonials__text-title {
     margin: 16px 0 85px;
     font-family: "Poppins", sans-serif;
@@ -515,6 +508,15 @@ h1 {
             justify-content: center;
     color: #253757;
     margin-bottom: 4px; }
+  .testimonials__text-caption-card {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c0cdd7; }
 
 .three-component {
   position: relative;
