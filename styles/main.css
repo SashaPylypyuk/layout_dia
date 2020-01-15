@@ -415,6 +415,11 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
     margin-right: 34px; }
+    .approach__link:hover {
+      -webkit-animation: pulse-icon 1s;
+              animation: pulse-icon 1s;
+      -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+              box-shadow: 0 0 0 2em rgba(255, 255, 255, 0); }
   .approach__icon {
     width: 32px;
     height: 32px; }
@@ -429,6 +434,16 @@ h1 {
     right: 0;
     bottom: 0;
     background: no-repeat center; }
+
+@-webkit-keyframes pulse-icon {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #fff;
+            box-shadow: 0 0 0 0 #fff; } }
+
+@keyframes pulse-icon {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #fff;
+            box-shadow: 0 0 0 0 #fff; } }
 
 .testimonials {
   padding: 0 227px;
