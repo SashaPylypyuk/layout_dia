@@ -356,9 +356,13 @@ h1 {
   margin-left: 121px;
   border-radius: 30px 0 0 30px;
   margin-bottom: 148px; }
-  .approach__column--big {
-    width: 362px; }
   .approach__caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 13px;
@@ -367,6 +371,8 @@ h1 {
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 16px; }
+  .approach__column--big {
+    width: 362px; }
   .approach__text-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -393,13 +399,25 @@ h1 {
     display: flex; }
   .approach__row:not(:last-child) {
     margin-bottom: 64px; }
-  .approach__icon {
-    padding: 20px;
+  .approach__link {
     width: 64px;
     height: 64px;
-    border-radius: 50%;
+    padding: 20px;
     background-color: #fff;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 34px; }
+  .approach__icon {
+    width: 32px;
+    height: 32px; }
   .approach__text {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
@@ -425,6 +443,7 @@ h1 {
     text-transform: uppercase;
     color: #c0cdd7; }
   .testimonials__text-title {
+    width: 200px;
     margin: 16px 0 85px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -448,8 +467,7 @@ h1 {
     position: relative;
     border-radius: 16px;
     background-color: #fff;
-    width: 319px;
-    height: 494px; }
+    width: 319px; }
   .testimonials__photo {
     position: relative;
     left: 20%;
@@ -521,9 +539,10 @@ h1 {
 .three-component {
   position: relative;
   padding: 200px 442px 400px;
-  height: 900px;
   width: 100%;
   background-color: #fff; }
+  .three-component__content {
+    width: 750px; }
   .three-component__text-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -535,11 +554,9 @@ h1 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%;
     color: #253757;
     margin-bottom: 24px; }
   .three-component__text {
-    width: 750px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 24px;
