@@ -760,14 +760,14 @@ h1 {
     position: relative;
     border-radius: 16px;
     background-color: #fff;
-    width: 315px; }
-  .testimonials__card:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    width: 315px;
     -webkit-transition: -webkit-transform linear 0.5s;
     transition: -webkit-transform linear 0.5s;
     transition: transform linear 0.5s;
     transition: transform linear 0.5s, -webkit-transform linear 0.5s; }
+  .testimonials__card:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .testimonials__photo {
     position: relative;
     left: 20%;
