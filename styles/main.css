@@ -920,6 +920,9 @@ h1 {
         -ms-flex-pack: center;
             justify-content: center;
     width: 226px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 56px;
     background: #2060f6;
     border-radius: 8px;
